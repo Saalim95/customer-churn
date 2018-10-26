@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#hacktoberfest formalities
 dataset = pd.read_csv('Churn_Modelling.csv')
 X = dataset.iloc[:,3:13].values # cols 3 to 12
 y = dataset.iloc[:,13].values
